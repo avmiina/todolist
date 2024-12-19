@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+}
+h1{
+   text-shadow: 2px 2px 5px purple;
+}
+input{
+    border: 1px solid purple;
+    padding: 0 2px;
+   
+}
+.buttons button{
+    border: 1px solid purple;
+    transition: background-color .3s ease;
+}
+
+.buttons button:hover{
+    background-color: purple;
+    color: white;
+}

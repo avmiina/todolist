@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DO LİST</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#f5f5f5]">
+    <div class="flex flex-col justify-center items-center h-[30vh] gap-5">
+        <div class="list">
+        <h1 class="text-7xl ">To-Do List</h1>
+    </div>
+    <div class="flex flex-row justify-center gap-5">
+        <!-- input field -->
+        <input type="text" id="textInput" placeholder="add a new task" class="w-80 h-[30px] text-sm mt-[8px]">
+        <!-- control buttons -->
+        <div class="buttons">
+        <button id="add" class="w-[50px] h-[50px] rounded-full cursor-pointer">Add</button>
+        <button id="reset" class="w-[50px] h-[50px] rounded-full cursor-pointer">Reset</button>
+    </div>
+</div>
+    <!-- text list -->
+        <ul id="taskList"></ul>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>
